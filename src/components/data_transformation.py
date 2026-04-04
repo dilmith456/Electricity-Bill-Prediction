@@ -45,7 +45,9 @@ class DataTransformation:
                 'electricity_tariff_rate',
                 'past_month_units',
                 'ac_hours',
-                'fan_hours'
+                'fan_hours',
+                'tv_hours',
+                'fridge_hours'
             ]
 
             # Categorical Features
@@ -121,6 +123,8 @@ class DataTransformation:
                 "past_month_units",
                 "ac_hours",
                 "fan_hours",
+                "tv_hours",
+                "fridge_hours",
                 "location_type",
                 "climate_zone",
                 "income_level",
