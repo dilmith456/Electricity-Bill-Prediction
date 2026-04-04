@@ -48,7 +48,8 @@ class DataIngestion:
                     f"Dataset is missing required columns: {missing_columns}"
                 )
 
-            df["date"] = pd.to_datetime(df["date"])
+            df["date"] = pd.to_datetime(df["date"], errors="coerce").dt.date
+            df = df.dropna(subset=["date"])
 
             # ------------------------------------
             # SAVE RAW DATA (NO SORT NEEDED)

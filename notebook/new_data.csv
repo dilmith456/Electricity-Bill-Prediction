@@ -1,0 +1,13 @@
+household_id,date,location_type,climate_zone,household_size,income_level,inflation_rate,electricity_tariff_rate,past_month_units,ac_hours,fan_hours,next_month_units
+999,2026-04-01,Urban,WetWarm,4,Middle,5,50,89.0,10.0,10.0,128.77
+999,2026-04-01,Urban,WetWarm,4,Middle,5,50,89.0,0.0,10.0,102.51
+999,2026-04-01,Urban,WetWarm,6,Middle,5,50,80.0,2.0,7.0,103.37
+999,2026-04-03,Urban,WetWarm,4,Middle,5,50,89.0,11.0,5.0,114.95
+999,2026-04-03,Urban,WetWarm,5,High,5,50,135.0,15.0,10.0,155.08
+999,2026-04-03,Urban,WetWarm,5,High,5,50,135.0,8.0,5.0,116.56
+999,2026-04-03,Urban,WetWarm,4,Middle,5,50,89.0,0.0,10.0,102.51
+999,2026-04-03,Rural,DryHot,3,Low,5,50,48.0,5.0,2.0,102.38
+999,2026-04-03,Rural,WetWarm,3,Low,5,50,48.0,0.0,2.0,50.4
+999,2026-04-03,Urban,WetWarm,55,High,5,50,400.0,25.0,30.0,271.36
+999,2026-04-03,Rural,DryHot,3,Low,5,50,55.0,0.0,0.0,45.35
+999,2026-04-03,Rural,DryHot,3,Low,5,50,55.0,0.0,2.0,48.12
